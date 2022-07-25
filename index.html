@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            
+        
+        <div class="display">
+            <div data-previous-operand class="previous-operand">
+               
+
+            </div>
+            <div data-current-operand class="current-operand">
+               
+            </div>
+
+        </div>
+        <div class="buttons">
+            <table border="0">
+                <tr>
+                    <td><button data-all-clear class="btn-operator" id="clear">C</button></td>
+                    <td><button data-operation class="btn-operator" id="/">÷</button></td>
+                    <td><button data-operation class="btn-operator" id="*">×</button></td>
+                    <td><button data-delete class="btn-operator" id="backspace">del</button></td>
+                    </tr>
+                    <tr>
+                        <td><button data-number class="btn-number" id="7">7</button></td>
+                        <td><button data-number class="btn-number" id="8">8</button></td>
+                        <td><button data-number class="btn-number" id="9">9</button></td>
+                        <td><button data-operation class="btn-operator" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button data-number class="btn-number" id="4">4</button></td>
+                        <td><button data-number class="btn-number" id="5">5</button></td>
+                        <td><button data-number class="btn-number" id="6">6</button></td>
+                        <td><button data-operation class="btn-operator" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button data-number class="btn-number" id="1">1</button></td>
+                        <td><button data-number class="btn-number" id="2">2</button></td>
+                        <td><button data-number class="btn-number" id="3">3</button></td>
+                        <td rowspan=""><button data-number class="btn-operator" id="decimal">.</button></td>
+                    </tr>
+                    <tr>
+                      <td><button data-operation class="btn-operator" id="(">(</button></td>
+                      <td><button data-number class="btn-operator" id="0">0</button></td>
+                      <td><button data-operation class="btn-operator" id=")">)</button></td>
+                      <td><button data-equals class="btn-equal" id="equal">=</button></td>
+                    </tr>
+
+                </table>
+
+            </div>
+            </div>
+
+        </div>
+        
+           <div id="down">
+               
+           
+            <p><b><i>All Rights Reserved</i></b></p>
+      
+           <p> <b><i>
+            Designed by Yusuf Adegbite ©2022</i></b></p>
+            </div>
+        
+        
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+        
+
+    </body>
+</html>

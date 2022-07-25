@@ -1,0 +1,135 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body {
+    font-family: Sans-Serif;
+    backgroud: linear-gradient(to bottom right, #D42B6E, #B343F5);
+    background-color: #FF0026;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    display: grid;
+    
+}
+.calculator {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 30px #000;
+}
+.display {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    max-width: 250px;
+    margin: 0 10px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background: #001622;
+    border-radius: 15px;
+    color: white;
+    grid-column: 1 / -1;
+    padding: 10px;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.display .previous-operand {
+    color: rgba(255, 255, 255, 70%);
+    font-size: 1.5rem;
+}
+
+.display .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.display::-webkit-scrollbar {
+    height: 3px;
+    display: block;
+}
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-weight: normal;
+}
+
+.calculator button:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+
+
+.calculator {
+    background: #ff;
+}
+.calculator {
+    background: ;
+}
+.calculator button#clear {
+    background: #ffd5d8;
+    color: #fc4552;
+}
+.calculator button.btn-number {
+    background: #EFEFEF;
+    color: #000;
+}
+.calculator button.btn-operator {
+    background: #FDB4FF;
+    color: #f967f3;
+}
+.calculator button#backspace {
+    background: #FF7473;
+    color: #000;
+}
+.calculator button.btn-equal {
+    background: #97F7AB;
+    color: #000;
+}
+.calculator button#decimal {
+    background: #FDB4FF;
+    color: #f967f3;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 13px;
+    font-weight: normal;
+    
+}
+
+#foter {
+    background: #FF0026;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 0 30px #000;
+    text-align: center;
+    align-content: center;
+    color: darkgrey;
+    height: 1.5rem;
+    padding-top: 10px;
+    position: relative;
+}
+#down {
+    text-align: center;
+    color: darkgrey;
+    top: 0;
+    margin-bottom:px;
+}
