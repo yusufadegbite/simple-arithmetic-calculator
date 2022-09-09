@@ -1,4 +1,4 @@
-# simple-calculator
+# simple-arithmetic-calculator
 
 This is a Simple Calculator that performs 
 basic Arithmetic Operations such as addition ,
