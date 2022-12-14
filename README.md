@@ -5,4 +5,4 @@ basic Arithmetic Operations such as addition ,
 Subtraction , multiplication and division.
 
 
-https://yusufadegbite.github.io/simple-calculator/
+https://yusufadegbite.github.io/simple-arithmetic-calculator/
